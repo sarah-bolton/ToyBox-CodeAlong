@@ -7,6 +7,60 @@
 	<title>STARTER - Toybox Homepage</title>
 </head>
 <body>
-    
+    <!-- skip link -->
+	<a href="#mainContent" class="skip-link">Skip to main content.</a>
+
+	<!-- announcements bar -->
+	<div class="announcements">
+		<div class="wrapper">
+			<p>Complimentary shipping on orders over $50. Discount applied at checkout.</p>
+		</div>
+	</div>
+
+	<!-- navigation bar -->
+	<nav class="navBar">
+		<div class="wrapper">
+			<!-- slide out menu -->
+			<input type="checkbox" id="openSideMenu">
+			<label for="openSideMenu">
+				<img src="./assets/menu-button.svg" alt="menu button">
+			</label>
+
+			<!-- slide out nav content -->
+			<div class="slideOutNav">
+				<button>x</button>
+
+				<!-- menu content -->
+				<nav>
+					<ul>
+						<li><a href="">Shop</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">FAQ</a></li>
+						<li><a href="">News</a></li>
+						<li><a href="">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<!-- navBar, Logo -->
+			<a href="#home" class="logo">
+				<h1>ToyBox</h1>
+			</a>
+
+			<div class="searchCart">
+			<!-- search, cart -->
+				<button class="menuIcons">
+					<img src="./assets/search.svg" alt="search icon">
+				</button>
+			
+				<a href="#" class="bag">
+				<img src="./assets/shop-bag.svg" alt="shop icon"></a>
+
+				<div class="counter">
+					<p>0</p>
+				</div>
+			</div>
+		</div>
+	</nav>
 </body>
 </html>
