@@ -355,6 +355,7 @@ section {
   top: 0;
   border-top: 1px solid rgba(8, 75, 109, 0.08);
   border-bottom: 1px solid rgba(8, 75, 109, 0.08);
+  background-color: #fff;
 }
 .navBar .wrapper {
   display: -webkit-box;
@@ -377,15 +378,31 @@ section {
   display: -ms-flexbox;
   display: flex;
 }
-.searchCart .menuIcon, .searchCart .bag {
+.searchCart .menuIcons, .searchCart .bag {
   margin-right: 15px;
+}
+.searchCart .menuIcons {
+  background-color: transparent;
+  border: none;
 }
 .searchCart .bag {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
-.slideOutNav {
-  display: none;
+.searchCart .counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.searchCart .counter p {
+  width: 24px;
+  height: 24px;
+  background: #084b6d;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
 }
