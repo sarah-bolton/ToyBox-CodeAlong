@@ -93,22 +93,22 @@
                 <input type="tel" id="phone" placeholder="Phone">
 
                 <select name="reason" id="reason">
-                    <option value="placeholder" disabled selected>Reason for contacting</option>
+                    <option value="placeholder" disabled selected="true">Reason for contacting:</option>
                     <option value="refund">Refund request</option>
                     <option value="status">Order status updates</option>
                     <option value="praise">Praise!</option>
                     <option value="complaint">General concerns</option>
                 </select>
 
-                <label for="message" class="sr-only">Message for me:</label>
-                <textarea id="message" cols="30" rows="10"></textarea>
+                <label for="message" class="sr-only"></label>
+                <textarea id="message" cols="30" rows="10">Message:</textarea>
 
                 <fieldset>
                     <input type="checkbox" id="terms">
                     <label for="terms">I agree to the Terms & Conditions</label>
                 </fieldset>
 
-                <button type="submit">Send Message</button>
+                <button type="submit" class="button shopButton">Send Message</button>
             </form>
         </div>
     </main>

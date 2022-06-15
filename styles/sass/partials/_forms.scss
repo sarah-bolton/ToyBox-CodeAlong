@@ -1,0 +1,63 @@
+.contact form {
+    display: flex;
+    flex-direction: column;
+    margin: 90px 0;
+}
+
+input, textarea {
+    border: none;
+    font-family: $bodyFont;
+    color: #333;
+    padding: 0 0 10px 5px;
+    &::placeholder {
+        font-size: 0.8rem;
+        color: $primary;
+        text-transform: uppercase;
+    }
+    &:focus {
+        border-bottom: 1px solid $primary;
+        outline: none;
+    }
+}
+
+input {
+    border-bottom: 1px solid #333;
+
+}
+
+textarea {
+    border: 1px solid #333;
+    border-top: none;
+}
+
+select {
+    appearance: none;
+    border: none;
+    font-family: $bodyFont;
+    color: $primary;
+    background-color: $solidWhite;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    font-size: 0.8rem;
+    border-bottom: 1px solid #333;
+    background-image: url(../assets/caret-down-solid.svg);
+    background-repeat: no-repeat;
+    background-position: 95% 0;
+}
+
+option {
+    font-family: $bodyFont;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    label {
+        font-size: 0.8rem;
+        margin-left: 10px;
+    }
+    input {
+        accent-color: $primary;
+    }
+}
